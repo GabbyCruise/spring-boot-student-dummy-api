@@ -11,11 +11,11 @@ public class StudentServices {
 	private LocalDate dob;
 	private int age;
 	
-	
-	
-	
-	
-	public StudentServices(int userid, String name, String email, double phone, LocalDate dob, int age) {
+	public StudentServices(
+		int userid, String name, String email, 
+		double phone, LocalDate dob, int age
+		) {
+
 		super();
 		this.userid = userid;
 		this.name = name;
@@ -24,6 +24,7 @@ public class StudentServices {
 		this.dob = dob;
 		this.age = age;
 	}
+
 	public int getUserid() {
 		return userid;
 	}
